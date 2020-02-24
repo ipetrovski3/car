@@ -11,7 +11,7 @@ class MyCar
 
   def speed_up(kmh)
     @current_speed += kmh
-    puts "We are going to pass that vechile in front of us, by driving #{kmh} Km/H!"
+    puts "We are going to pass that vechile in front of us, by speeding up to #{kmh} Km/H!"
   end
 
   def brake(kmh)
@@ -20,7 +20,7 @@ class MyCar
   end
 
   def speed
-    puts "We are now driving #{@current_speed} Km/H. We avoided that speeding ticket!"
+    puts "We are now driving #{@current_speed} Km/H."
   end
 
   def shut_off
