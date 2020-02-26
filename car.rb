@@ -16,7 +16,7 @@ class MyCar
 
   def brake(kmh)
     @current_speed -= kmh
-    puts "Ohh s*it, they are cops ahead we must brake and maintain our speed by #{kmh} Km/H!"
+    puts "Ohh s*it, they are cops ahead we must brake and lower our speed by #{kmh} Km/H!"
   end
 
   def speed
