@@ -1,5 +1,6 @@
 # Car
 
+This is my first game. Hope many more will come in future.
 Creating cars with ease. This gem will help you create cars fast with methods like speed up, brake, shut down and repaint the car.
 
 
@@ -21,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Changing model, engine, color of the car also acceleration, braking, shuting off.
 
 ## Development
 
@@ -31,5 +32,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/car.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[ipetrovski3]/car.
 
