@@ -14,5 +14,6 @@ module Car
 
     def speed_up
       @current_speed += 100
+    end
   end
 end
