@@ -1,5 +1,4 @@
 class MyCar
-  
   def initialize(model, engine, year, color)
     @model = model
     @engine = engine
