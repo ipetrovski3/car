@@ -46,8 +46,9 @@ RSpec.describe Car::MyCar do
   end
 
   it 'will lists all the defects' do
+    peugeot.add_defect(error)
     peugeot.add_defect(errors)
-    expect(peugeot.service_info).to eq("Defects to be fixed: #{errors}")
+    expect(peugeot.service_info).to eq("Defects to be fixed: #{error}, #{errors}")
     puts peugeot.service_info
   end
 
